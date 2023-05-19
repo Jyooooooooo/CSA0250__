@@ -1,7 +1,7 @@
 #include<stdio.h>
 int prod_arr(int arr[],int n)
 {
-	int i,n,result=1;
+	int i,result=1;
 	for(i=0;i<n;i++)
 	result=result*arr[i];
 	return result;
